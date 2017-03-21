@@ -53,7 +53,7 @@ function emailRecruiter(candidate,email){
 	driver.findElement(By.name('Email')).sendKeys('recruitment.bettertech@gmail.com');
 	driver.findElement(By.name('signIn')).click();
 	driver.manage().timeouts().implicitlyWait(5000);
-    driver.findElement(By.name('Passwd')).sendKeys('wearethebest!');
+    driver.findElement(By.name('Passwd')).sendKeys('');
 	driver.findElement(By.id('signIn')).click();
 	driver.manage().timeouts().implicitlyWait(5000);
 	driver.findElement(By.className('z0')).click();
